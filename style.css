@@ -54,16 +54,17 @@
 
   #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 35px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin-top: 30px;
-    border: 2px solid var(--bg-1);
-    color: var(--bg-1);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 2px solid black;
+  color: white;
+  background: var(--border-color)
   }
   #hero .btn-get-started:hover {
     background: var(--main-color);
@@ -77,6 +78,14 @@
     line-height: 56px;
     text-transform: uppercase;
     color: var(--side-color);
+  }
+
+  #hero .patient-edu-h1 {
+    color: var(--plat-color);
+  }
+  
+  #hero .patient-edu-h2 {
+    color: var(--plat-color);
   }
 
 /* =============navbar adtl end========== */
@@ -927,4 +936,48 @@ div.container-cons{
 
   #chart .row {
     margin-top: 5rem;
+  }
+
+  #hero.patient-edu-1 {
+    background: url(img/patient_edu/health_condition.jpg) center;
+    height: 120vh;
+    margin-bottom: 0;
+  }
+  
+  #hero.mission {
+    background: url(img/mission-vision/mission.jpg) center;
+    height: 100vh;
+    margin-bottom: 0;
+  }
+  
+  #hero.vision {
+    background: url(img/mission-vision/vision.jpg) center;
+    height: 120vh;
+    margin-bottom: 0;
+  }
+  
+  #hero.patient-edu-2 {
+    background: url(img/patient_edu/prevention.jpg) center;
+    height: 120vh;
+    margin-bottom: 0;
+  }
+  
+  #hero.patient-edu-3 {
+    background: url(img/patient_edu/lifestyle.jpg) center;
+    height: 120vh;
+    margin-bottom: 0;
+  }
+  
+  
+  #hero.patient-edu-4 {
+    background: url(img/patient_edu/rights.jpg) center;
+    height: 120vh;
+    margin-bottom: 0;
+  }
+  
+  
+  #hero.patient-edu-5 {
+    background: url(img/patient_edu/support_group.jpg) center;
+    height: 120vh;
+    margin-bottom: 0;
   }
