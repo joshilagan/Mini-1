@@ -1,0 +1,162 @@
+ETO YUNG CSS NIYA
+/* ========== TABLE ==========  */
+
+.tbl-container{
+  width: 85vw;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  border: #e6e6e6 1px solid;
+}
+
+
+
+
+ETO YUNG HTML PART, PAKI DELETE YUNG OLD TABLE TAS PASTE NALANG ITONG CODES SA ILALIM NG 
+<div id="wrapper">
+
+
+<!-- ---------------------Start Of Charts ------------------------    -->
+
+  <div class="container">
+    <div class="showcase-content d-flex justify-content-center">
+      <img src="/img/hero2.jpg" alt="" width="700">
+      <img src="/img/hero2.jpg" alt="" width="700">
+    </div>
+  </div>
+
+<!-- --------------------------End of Charts--------------------------   -->
+<!-- ------ Start of Table Beside Navbar--------  -->
+<section id="table-appointment">
+  <div class="tbl-container">
+    <table style="width: 100vw;" class="table table-striped table-condensed">
+      <thead>
+          <tr>
+            
+            <th class="text-center" style="width: 12%">EMPLOYEE No.</th>
+            <th class="text-center" style="width: 12%">Last Name</th>
+            <th class="text-center" style="width: 10%">First Name</th>
+            <th class="text-center" style="width: 20%">Appointment Time</th>
+            <th class="text-center" style="width: 25%">Status</th>
+            <th class="text-center" style="width: 10%">Action</th>
+            
+          </tr>
+        
+      </thead>
+      <tbody>
+        <tr>
+          <!-- <th scope="col" class="text-center"><input type="checkbox" /></th>
+           -->
+          <th class="text-center">EMP-121212</th>
+          <td class="text-center">Mark</td>
+          <td class="text-center">Otto</td>
+          <td class="text-center">8:30 AM</td>
+          <td class="text-center">Dizzy</td>
+          <td class="text-center"><input type="radio"/></td>
+          
+        </tr>
+        <tr>
+          <th class="text-center" >STU-232423</th> 
+          <td class="text-center">Jacob</td>
+          <td class="text-center">Thornton</td>
+          <td class="text-center">11:00 AM</td>
+          <td class="text-center">stomach cramps</td>
+          <td class="text-center"><input type="radio"/></td>
+          
+        </tr>
+        <tr>
+        
+          <th class="text-center">STU-34t342</th>
+          <td class="text-center">larry</td>
+          <td class="text-center">Osborne</td>
+          <td class="text-center">8:00 AM</td>
+          <td class="text-center">Double</td>
+          <th class="text-center"scope="col"><input type="radio" /></th>
+        </tr>
+        <tr>
+          <th class="text-center" >STU-232423</th> 
+          <td class="text-center">John</td>
+          <td class="text-center">Autto</td>
+          <td class="text-center">10:00 AM</td>
+          <td class="text-center">Dizzy</td>
+          <td class="text-center"><input type="radio"/></td>
+          
+        </tr>
+        <tr>
+        
+          <th class="text-center">EMP-565993</th>
+          <td class="text-center">Dianne</td>
+          <td class="text-center">Reming</td>
+          <td class="text-center">11:30 AM</td>
+          <td class="text-center">Nausea</td>
+          <th class="text-center"scope="col"><input type="radio" /></th>
+        </tr>
+        <tr>
+          <th class="text-center" >STU-564321</th> 
+          <td class="text-center">Francheska</td>
+          <td class="text-center">Roosey</td>
+          <td class="text-center">9:00 AM</td>
+          <td class="text-center">Allergy</td>
+          <td class="text-center"><input type="radio"/></td>
+          
+        </tr>
+        <tr>
+        
+          <th class="text-center">STU-69421</th>
+          <td class="text-center">Kahwai-khawai</td>
+          <td class="text-center">Buckamas-troke</td>
+          <td class="text-center">9:00 AM</td>
+          <td class="text-center">Double</td>
+          <th class="text-center"scope="col"><input type="radio" /></th>
+        </tr>
+        <tr>
+          <th class="text-center" >EMP-54821</th> 
+          <td class="text-center">Gandalf</td>
+          <td class="text-center">Duhgray</td>
+          <td class="text-center">2:00 PM</td>
+          <td class="text-center">Back pain</td>
+          <td class="text-center"><input type="radio"/></td>
+          
+        </tr>
+        <tr>
+        
+          <th class="text-center">STU-34t342</th>
+          <td class="text-center">Jerry</td>
+          <td class="text-center">Anderson</td>
+          <td class="text-center">1:00 PM</td>
+          <td class="text-center">Headache</td>
+          <th class="text-center"scope="col"><input type="radio" /></th>
+        </tr>
+        <tr>
+          <th class="text-center" >STU-3y45345</th> 
+          <td class="text-center">Jacob</td>
+          <td class="text-center">Lee</td>
+          <td class="text-center">3:00 PM</td>
+          <td class="text-center">Diarrhea</td>
+          <td class="text-center"><input type="radio"/></td>
+          
+        </tr>
+        <tr>
+        
+          <th class="text-center">EMP-454672</th>
+          <td class="text-center">Marjorie</td>
+          <td class="text-center">Sing</td>
+          <td class="text-center">3:00PM</td>
+          <td class="text-center">Headache</td>
+          <th class="text-center"scope="col"><input type="radio" /></th>
+        </tr>
+      </tbody>
+    </table>
+      <div class="butons d-flex justify-content-center">
+        <div class="update">
+          <a class="btn btn-primary btn-rounded mr-5" href="#" role="button" style="padding-left: 2.4rem; padding-right: 2.4rem;">Approve</a>
+
+        </div>
+        <div class="update">
+          <a class="btn btn-primary btn-rounded ml-5" href="#" role="button" style="padding-left: 3rem; padding-right: 3rem;">Reject</a>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- -----------  End of Table inside Sidebar End------------  -->
