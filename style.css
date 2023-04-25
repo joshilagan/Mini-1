@@ -70,6 +70,14 @@
     color: white;
   
   }
+  #hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: var(--side-color);
+  }
 
 /* =============navbar adtl end========== */
 
@@ -332,10 +340,16 @@ header#header{
               APPOINTMENT 
 ---------------------------------------- */
   .appointmenty{
-    background: #f1f7fd;
+    background: var(--side-color);
   }
 
-
+  #appointment .appointment-btn{
+    background: var(--border-color);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px;
+  }
 
   /* =========APPOINTMENT END============== */
 
