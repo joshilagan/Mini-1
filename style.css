@@ -1,3 +1,71 @@
+:root {
+  --main-color:#81B622;
+  --main-color-light:#ECF87F;
+  --border-color: #3D550C;
+  --white-color: #fff;
+  --side-color: Green;
+  --btn-hover-color: rgb(89, 156, 89);
+  --plat-color: #e5e9e2;
+  --anti-white: #F2F3F2;
+
+}
+
+/* ======== navbar aditional========= */
+.container.navbar-size {
+  max-height: 5.5rem;
+  margin-bottom: none;
+  padding-bottom: none;
+  display: flex;
+}
+.container .logo img {
+  padding-top: 30px;
+  width: 12rem;
+}
+
+ #hero {
+    width: 100%;
+    height: 85vh;
+    background: url("./img/hero1.jpg") ;
+    background-size: cover;
+    margin-bottom: 60px;
+  }
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background: var(--side-color);
+  border-radius: 3px;
+  color: var(--white-color);
+}
+
+.nav-link.current-page{
+  background: var(--main-color);
+  border-radius: 10px;
+}
+
+.dropdown-item:hover {
+  color: var(--white-color);
+  background: var(--side-color);
+  border-radius: 3px;
+}
+
+  #hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid var(--bg-1);
+    color: var(--bg-1);
+  }
+/* =============navbar adtl end========== */
 
 *{
     margin: 0;
